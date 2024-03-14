@@ -1,0 +1,30 @@
+.parent{
+  /* height: 1050px; */
+height: 100%;
+  background-color: black;
+    display: flex;
+    flex-direction:center;
+    /* height:100%; */
+     
+     border: 5px;
+     /* gap: 10px; */
+     justify-content:center;
+  align-items: center;
+     flex-wrap: wrap;
+}
+.child{
+  background-color: bisque;  
+  border: 2px solid RED;
+  height: 100px;
+  width: 100px;
+  flex: 1;
+  
+}
+.childl{
+  
+  background-color: bisque;  
+  border: 2px solid RED;
+  height: 100px;
+  width: 100px;
+  flex:2
+}
